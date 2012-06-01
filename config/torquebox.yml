@@ -1,0 +1,14 @@
+# config/torquebox.yml
+#   Used by torquebox for application settings/boot. You can change these
+#   settings by using a custom deployment discriptor .yml file.
+
+services:
+  lividpenguin-server:
+    singleton: true
+    service: ServerWrapper
+
+ruby:
+  version: 1.9        # run ruby in 1.9 mode.
+
+injection:
+    enabled: false

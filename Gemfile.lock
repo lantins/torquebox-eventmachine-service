@@ -1,0 +1,16 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    eventmachine (0.12.10)
+    eventmachine (0.12.10-java)
+    servolux (0.10.0)
+    syslogger (1.3.0)
+
+PLATFORMS
+  java
+  ruby
+
+DEPENDENCIES
+  eventmachine
+  servolux
+  syslogger

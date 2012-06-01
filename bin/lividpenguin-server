@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+# DEVELOPMENT NOTE
+# To run this executiable using the local code add ./lib/ to your ruby load path:
+# 
+#     ruby -Ilib bin/lividpenguin-server
+#
+
+require 'rubygems' unless defined?(Gem)
+require 'lividpenguin'
+
+LividPenguin.run!(ARGV)
